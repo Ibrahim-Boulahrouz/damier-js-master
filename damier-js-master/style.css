@@ -1,0 +1,38 @@
+body {
+	background-color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#damier {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0rem 0rem 4rem 14px black;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+}
+
+.case {
+	background-color: blue;
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+.column {
+	background-color: blue;
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+.white {
+	background-color: white;
+}
+
+.black {
+	background-color: black;
+}
